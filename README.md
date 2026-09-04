@@ -1,1 +1,1 @@
-# adguardhomesync-docker
+# Adguardhome Sync
