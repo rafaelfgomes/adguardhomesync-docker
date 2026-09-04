@@ -1,9 +1,9 @@
 origin:
-  url: "https://adguard1.rgtech.dev.br"
-  username: "admin"
-  password: "#r6Eo#Ka#Zae3d2CuaruiHAYW"
+  url: "<url>"
+  username: "<user>"
+  password: "<password>"
 replicas:
-  - url: "https://adguard2.rgtech.dev.br"
-    username: "admin"
-    password: "#r6Eo#Ka#Zae3d2CuaruiHAYW"
+  - url: "<url>"
+    username: "<user>"
+    password: "<password>"
 cron: "*/5 * * * *" # Sync every 5 minutes
