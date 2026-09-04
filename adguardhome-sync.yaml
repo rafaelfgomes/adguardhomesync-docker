@@ -1,9 +1,9 @@
 origin:
-  url: "http://192.168.10.80:80"
+  url: "http://192.168.10.87:80"
   username: "admin"
   password: "${ADGUARDHOME_PASSWORD}"
 replicas:
-  - url: "http://192.168.10.87:80"
+  - url: "http://192.168.10.80:80"
     username: "admin"
     password: "${ADGUARDHOME_PASSWORD}"
 cron: "*/5 * * * *" # Sync every 5 minutes
